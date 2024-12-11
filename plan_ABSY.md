@@ -38,6 +38,7 @@
 
 
 ABSY/
+<pre><code> 
 ├── client/                  # Frontend (React.js)
 │   ├── public/              # Public assets (index.html, icons, etc.)
 │   ├── src/
@@ -61,4 +62,4 @@ ABSY/
 ├── .gitignore               # Files to ignore in Git
 ├── README.md                # Project documentation
 └── package.json             # Root-level dependencies (if needed)
-
+</code></pre>
