@@ -37,7 +37,7 @@
         Visual insights into appointment trends.
 
 
-ABSY/
+ABSY Project Structure
 <pre><code> 
 ├── client/                  # Frontend (React.js)
 │   ├── public/              # Public assets (index.html, icons, etc.)

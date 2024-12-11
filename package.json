@@ -1,0 +1,30 @@
+{
+  "name": "absy",
+  "version": "1.0.0",
+  "description": "Appointment Booking System",
+  "main": "index.js",
+  "scripts": {
+    "start-client": "cd client && npm start",
+    "start-server": "cd server && nodemon app.js",
+    "start": "concurrently \"npm run start-client\" \"npm run start-server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "concurrently": "^9.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.4",
+    "web-vitals": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "nodemon": "^3.1.7"
+  }
+}
